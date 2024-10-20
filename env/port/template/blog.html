@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block bogla %}
+<!-- header section end -->
+      <!-- layout main section start -->
+      <div class="container-fluid">
+         <div class="layout_main">
+            <!-- banner section start -->
+            <div class="banner_section">
+               <div class="container">
+                  <div class="menu_main">
+                     <div class="custome_menu">
+                        <ul>
+                           <li><a href="{% url 'index.html' %}">Home</a></li>
+                           <li><a href="{% url 'service.html' %}">Services</a></li>
+                           {% comment %} <li><a href="{% url 'about.html' %}">About</a></li> {% endcomment %}
+                           <li class="active"><a href="{% url 'blog.html' %}">Blog</a></li>
+                           <li><a href="{% url 'shop.html' %}">Shop</a></li>
+                           <li><a href="{% url 'contact.html' %}">Contacts</a></li>
+                        </ul>
+                     </div>
+                     <div class="login_menu">
+                        <ul>
+                           <li><a href="#">Login</a></li>
+                           <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- banner section end -->
+            <!-- blog section start -->
+            <div class="blog_section">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <h1 class="blog_taital">Collections Food In city</h1>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="blog_section_2 layout_padding">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="blog_img"><img src="{% static 'images/blog-img1.png' %}"></div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="blog_taital_main">
+                           <h1 class="blog_text">This Week going</h1>
+                           <p class="lorem_text">Long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed</p>
+                           <div class="readmore_btn"><a href="#">Read More</a></div>
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="blog_img"><img src="{% static 'images/blog-img2.png' %}"></div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="blog_taital_main">
+                           <h1 class="blog_text">Just Delivery Food</h1>
+                           <p class="lorem_text">Long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed</p>
+                           <div class="readmore_btn"><a href="#">Read More</a></div>
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="blog_img"><img src="{% static 'images/blog-img3.png' %}"></div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="blog_taital_main">
+                           <h1 class="blog_text">Newly Opened Cafe</h1>
+                           <p class="lorem_text">Long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed</p>
+                           <div class="readmore_btn"><a href="#">Read More</a></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- blog section end -->
+            <!-- footer section start -->
+ 
+
+
+{% endblock bogla %}
+      

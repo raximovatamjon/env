@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block bogla %}
+ <!-- header section end -->
+      <!-- layout main section start -->
+      <div class="container-fluid">
+         <div class="layout_main">
+      <!-- layout main section start -->
+      <div class="container-fluid">
+         <div class="layout_main">
+            <!-- banner section start -->
+            <div class="banner_section">
+               <div class="container">
+                  <div class="menu_main">
+                     <div class="custome_menu">
+                        <ul>
+                           <li><a href="{% url 'index.html' %}">Home</a></li>
+                           <li><a href="{% url 'service.html' %}">Services</a></li>
+                           {% comment %} <li><a href="{% url 'about.html' %}">About</a></li> {% endcomment %}
+                           <li><a href="{% url 'blog.html' %}">Blog</a></li>
+                           <li><a href="{% url 'shop.html' %}">Shop</a></li>
+                           <li class="active"><a href="{% url 'contact.html' %}">Contacts</a></li>
+                        </ul>
+                     </div>
+                     <div class="login_menu">
+                        <ul>
+                           <li><a href="#">Login</a></li>
+                           <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- banner section end -->
+            <!-- contact section start -->
+            <div class="contact_section">
+               <div class="container">
+                  <div class="contact_section_2">
+                     <div class="row">
+                        <div class="col-md-12">
+                           <h1 class="contact_taital">Get In Touch</h1>
+                           <form action="">
+                              <div class="mail_section_1">
+                                 <input type="text" class="mail_text" placeholder="Name" name="Name">
+                                 <input type="text" class="mail_text" placeholder="Phone Number" name="Phone Number"> 
+                                 <input type="text" class="mail_text" placeholder="Email" name="Email">
+                                 <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
+                                 <div class="send_bt"><a href="#">SEND</a></div>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                     <!-- order section start -->
+                     <div class="order_section">
+                        <div class="order_taital_main">
+                           <h1 class="order_taital">Order Best food at time</h1>
+                           <div class="order_bt"><a href="#">Order Now</a></div>
+                        </div>
+                     </div>
+                     <!-- order section end -->
+                  </div>
+               </div>
+            </div>
+            <!-- contact section end -->
+            <!-- footer section start -->
+   
+
+{% endblock bogla %}
+     

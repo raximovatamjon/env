@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block bogla %}
+
+<!-- header section end -->
+      <!-- layout main section start -->
+      <div class="container-fluid">
+         <div class="layout_main">
+            <!-- banner section start -->
+            <div class="banner_section">
+               <div class="container">
+                  <div class="menu_main">
+                     <div class="custome_menu">
+                        <ul>
+                           <li><a href="{% url 'index.html' %}">Home</a></li>
+                           <li><a href="{% url 'service.html' %}">Services</a></li>
+                           {% comment %} <li><a href="{% url 'about.html' %}">About</a></li> {% endcomment %}
+                           <li><a href="{% url 'blog.html' %}">Blog</a></li>
+                           <li class="active"><a href="{% url 'shop.html' %}">Shop</a></li>
+                           <li><a href="{% url 'contact.html' %}">Contacts</a></li>
+                        </ul>
+                     </div>
+                     <div class="login_menu">
+                        <ul>
+                           <li><a href="#">Login</a></li>
+                           <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- banner section end -->
+            <!-- shop section start -->
+            <div class="shop_section layout_padding">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <h1 class="shop_taital">Get the <br><span style="color: #18191a;">Food Finda App</span></h1>
+                        <p class="shop_text">Long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as</p>
+                        <div class="app_icon_main">
+                           <div class="app_icon"><img src="{% static 'images/icon-1.png' %}"></div>
+                           <div class="app_icon"><img src="{% static 'images/icon-2.png' %}"></div>
+                        </div>
+                        <div class="download_bt"><a href="#">Download Now</a></div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="mobile_img"><img src="{% static 'images/mobile-img.png' %}"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- shop section end -->
+            <!-- footer section start -->
+          
+
+{% endblock bogla %}
+      

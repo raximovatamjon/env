@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="{% url 'post' %}">
+      <label for="">Title</label>
+      <br /><br />
+      <input type="text" name="title" />
+      <br /><br />
+      <label for="">Description</label>
+      <br /><br />
+      <input type="text" name="dect" />
+      <br /><br />
+      <input type="submit" value="add" />
+    </form>
+  </body>
+</html>

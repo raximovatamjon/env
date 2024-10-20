@@ -1,0 +1,385 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block bogla %}
+
+
+	
+		
+	
+
+ <!-- header section end -->
+      <!-- layout main section start -->
+      <div class="container-fluid">
+         <div class="layout_main">
+            <!-- banner section start -->
+            <div class="banner_section">
+               <div class="container">
+                  <div class="menu_main">
+                     <div class="custome_menu">
+                        <ul>
+                           <li class="active"><a href="{% url 'index.html' %}">Home</a></li>
+                           <li><a href="{% url 'service.html' %}">Services</a></li>
+                           <!-- {% comment %} <li><a href="{% url 'about.html' %}">About</a></li> {% endcomment %} -->
+                           <li><a href="{% url 'blog.html' %}">Blog</a></li>
+                           <li><a href="{% url 'shop.html' %}">Shop</a></li>
+                           <li><a href="{% url 'contact.html' %}">Contacts</a></li>
+                        </ul>
+                     </div>
+                     <div class="login_menu">
+                        <ul>
+                           <li><a href="#">Login</a></li>
+                           <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div id="main_slider" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <div class="container">
+                           <div class="row">
+                              <div class="col-md-12">
+                                 <h1 class="banner_taital">Find The Best Restaurants Cafes And Bars in </h1>
+                                 <h1 class="banner_text">YOUR CITY</h1>
+                                 <div class="banner_main">
+                                    <div class="dropdown">
+                                       <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Category 
+                                       </button>
+                                       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                          <a class="dropdown-item" href="#">Action</a>
+                                          <a class="dropdown-item" href="#">Another action</a>
+                                          <a class="dropdown-item" href="#">Something else here</a>
+                                       </div>
+                                    </div>
+                                    <div class="main">
+                                       <!-- Another variation with a button -->
+                                       <div class="input-group">
+                                          <input type="text" class="form-control" placeholder="Search">
+                                          <div class="input-group-append">
+                                             <button class="btn btn-secondary" type="button" style="background-color: #ffffff; border-color:#ffffff ">
+                                             <i class="fa fa-search" style="color: #191919;"></i>
+                                             </button>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="ordernow_bt"><a href="#">Order Now</a></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="container">
+                           <div class="row">
+                              <div class="col-md-12">
+                                 <h1 class="banner_taital">Find The Best Restaurants Cafes And Bars in </h1>
+                                 <h1 class="banner_text">YOUR CITY</h1>
+                                 <div class="banner_main">
+                                    <div class="dropdown">
+                                       <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Category 
+                                       </button>
+                                       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                          <a class="dropdown-item" href="#">Action</a>
+                                          <a class="dropdown-item" href="#">Another action</a>
+                                          <a class="dropdown-item" href="#">Something else here</a>
+                                       </div>
+                                    </div>
+                                    <div class="main">
+                                       <!-- Another variation with a button -->
+                                       <div class="input-group">
+                                          <input type="text" class="form-control" placeholder="Search this blog">
+                                          <div class="input-group-append">
+                                             <button class="btn btn-secondary" type="button" style="background-color: #ffffff; border-color:#ffffff ">
+                                             <i class="fa fa-search" style="color: #191919;"></i>
+                                             </button>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="ordernow_bt"><a href="#">Order Now</a></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="container">
+                           <div class="row">
+                              <div class="col-md-12">
+                                 <h1 class="banner_taital">Find The Best Restaurants Cafes And Bars in </h1>
+                                 <h1 class="banner_text">YOUR CITY</h1>
+                                 <div class="banner_main">
+                                    <div class="dropdown">
+                                       <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Category 
+                                       </button>
+                                       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                          <a class="dropdown-item" href="#">Action</a>
+                                          <a class="dropdown-item" href="#">Another action</a>
+                                          <a class="dropdown-item" href="#">Something else here</a>
+                                       </div>
+                                    </div>
+                                    <div class="main">
+                                       <!-- Another variation with a button -->
+                                       <div class="input-group">
+                                          <input type="text" class="form-control" placeholder="Search this blog">
+                                          <div class="input-group-append">
+                                             <button class="btn btn-secondary" type="button" style="background-color: #ffffff; border-color:#ffffff ">
+                                             <i class="fa fa-search" style="color: #191919;"></i>
+                                             </button>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="ordernow_bt"><a href="#">Order Now</a></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+                  <i class="fa fa-angle-left"></i>
+                  </a>
+                  <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+                  <i class="fa fa-angle-right"></i>
+                  </a>
+               </div>
+            </div>
+            <!-- banner section end -->
+            <!-- service section start -->
+            <div class="service_section layout_padding">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <h1 class="service_taital">Quick Searches</h1>
+                     </div>
+                  </div>
+                  <div class="service_section_2">
+                     <div class="row">
+                        <div class="col">
+                           <div class="service_box">
+                              <div class="breakfast_img"><img src="{% static 'images/breakfast-img.png' %}"></div>
+                           </div>
+                           <h4 class="breakfast_text">Breakfast</h4>
+                           <div class="seemore_bt"><a href="#">See More</a></div>
+                        </div>
+                        <div class="col">
+                           <div class="service_box">
+                              <div class="breakfast_img"><img src="{% static 'images/delivery-img.png' %}"></div>
+                           </div>
+                           <h4 class="breakfast_text">Delivery</h4>
+                           <div class="seemore_bt"><a href="#">See More</a></div>
+                        </div>
+                        <div class="col">
+                           <div class="service_box">
+                              <div class="breakfast_img"><img src="{% static 'images/dinner-img.png' %}"></div>
+                           </div>
+                           <h4 class="breakfast_text">Dinner</h4>
+                           <div class="seemore_bt"><a href="#">See More</a></div>
+                        </div>
+                        <div class="col">
+                           <div class="service_box">
+                              <div class="breakfast_img"><img src="{% static 'images/coffee-img.png' %}"></div>
+                           </div>
+                           <h4 class="breakfast_text">Coffee</h4>
+                           <div class="seemore_bt"><a href="#">See More</a></div>
+                        </div>
+                        <div class="col">
+                           <div class="service_box">
+                              <div class="breakfast_img"><img src="{% static 'images/alcohol-img.png' %}"></div>
+                           </div>
+                           <h4 class="breakfast_text">Alcohol</h4>
+                           <div class="seemore_bt"><a href="#">See More</a></div>
+                        </div>
+                        <div class="col">
+                           <div class="service_box">
+                              <div class="breakfast_img"><img src="{% static 'images/diningtable-img.png' %}"></div>
+                           </div>
+                           <h4 class="breakfast_text">Diningtable</h4>
+                           <div class="seemore_bt"><a href="#">See More</a></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- service section end -->
+            <!-- blog section start -->
+            <div class="blog_section layout_padding">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <h1 class="blog_taital">Collections Food In city</h1>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="blog_section_2 layout_padding">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="blog_img"><img src="{% static 'images/blog-img1.png' %}"></div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="blog_taital_main">
+                           <h1 class="blog_text">This Week going</h1>
+                           <p class="lorem_text">Long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed</p>
+                           <div class="readmore_btn"><a href="#">Read More</a></div>
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="blog_img"><img src="{% static 'images/blog-img2.png' %}"></div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="blog_taital_main">
+                           <h1 class="blog_text">Just Delivery Food</h1>
+                           <p class="lorem_text">Long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed</p>
+                           <div class="readmore_btn"><a href="#">Read More</a></div>
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="blog_img"><img src="{% static 'images/blog-img3.png' %}"></div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="blog_taital_main">
+                           <h1 class="blog_text">Newly Opened Cafe</h1>
+                           <p class="lorem_text">Long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed</p>
+                           <div class="readmore_btn"><a href="#">Read More</a></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- blog section end -->
+            <!-- shop section start -->
+            <div class="shop_section layout_padding">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <h1 class="shop_taital">Get the <br><span style="color: #18191a;">Food Finda App</span></h1>
+                        <p class="shop_text">Long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as</p>
+                        <div class="app_icon_main">
+                           <div class="app_icon"><img src="{% static 'images/icon-1.png' %}"></div>
+                           <div class="app_icon"><img src="{% static 'images/icon-2.png' %}"></div>
+                        </div>
+                        <div class="download_bt"><a href="#">Download Now</a></div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="mobile_img"><img src="{% static 'images/mobile-img.png' %}"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- shop section end -->
+            <!-- testimonial section start -->
+            <div class="testimonial_section layout_padding">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <h1 class="testimonial_taital">Customers Says</h1>
+                     </div>
+                  </div>
+                  <div id="my_slider" class="carousel slide" data-ride="carousel">
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="testimonial_section_2">
+                              <div class="row">
+                                 <div class="col-md-4">
+                                    <h4 class="customer_text">Loliy Mark</h4>
+                                    <p class="many_text">Now use Lorem Ipsum as their default model text, and a search for 'loremnow use Lorem Ipsum as their default model text, and a search for 'lorem</p>
+                                 </div>
+                                 <div class="col-md-4">
+                                    <h4 class="customer_text">Den Mark</h4>
+                                    <p class="many_text">Now use Lorem Ipsum as their default model text, and a search for 'loremnow use Lorem Ipsum as their default model text, and a search for 'lorem</p>
+                                 </div>
+                                 <div class="col-md-4">
+                                    <h4 class="customer_text">Jonshon Mark</h4>
+                                    <p class="many_text">Now use Lorem Ipsum as their default model text, and a search for 'loremnow use Lorem Ipsum as their default model text, and a search for 'lorem</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="testimonial_section_2">
+                              <div class="row">
+                                 <div class="col-md-4">
+                                    <h4 class="customer_text">Loliy Mark</h4>
+                                    <p class="many_text">Now use Lorem Ipsum as their default model text, and a search for 'loremnow use Lorem Ipsum as their default model text, and a search for 'lorem</p>
+                                 </div>
+                                 <div class="col-md-4">
+                                    <h4 class="customer_text">Den Mark</h4>
+                                    <p class="many_text">Now use Lorem Ipsum as their default model text, and a search for 'loremnow use Lorem Ipsum as their default model text, and a search for 'lorem</p>
+                                 </div>
+                                 <div class="col-md-4">
+                                    <h4 class="customer_text">Jonshon Mark</h4>
+                                    <p class="many_text">Now use Lorem Ipsum as their default model text, and a search for 'loremnow use Lorem Ipsum as their default model text, and a search for 'lorem</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="testimonial_section_2">
+                              <div class="row">
+                                 <div class="col-md-4">
+                                    <h4 class="customer_text">Loliy Mark</h4>
+                                    <p class="many_text">Now use Lorem Ipsum as their default model text, and a search for 'loremnow use Lorem Ipsum as their default model text, and a search for 'lorem</p>
+                                 </div>
+                                 <div class="col-md-4">
+                                    <h4 class="customer_text">Den Mark</h4>
+                                    <p class="many_text">Now use Lorem Ipsum as their default model text, and a search for 'loremnow use Lorem Ipsum as their default model text, and a search for 'lorem</p>
+                                 </div>
+                                 <div class="col-md-4">
+                                    <h4 class="customer_text">Jonshon Mark</h4>
+                                    <p class="many_text">Now use Lorem Ipsum as their default model text, and a search for 'loremnow use Lorem Ipsum as their default model text, and a search for 'lorem</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a class="carousel-control-prev" href="#my_slider" role="button" data-slide="prev">
+                     <i class="fa fa-arrow-left"></i>
+                     </a>
+                     <a class="carousel-control-next" href="#my_slider" role="button" data-slide="next">
+                     <i class="fa fa-arrow-right"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <!-- testimonial section end -->
+            <!-- contact section start -->
+            <div class="contact_section layout_padding">
+               <div class="container">
+                  <div class="contact_section_2">
+                     <div class="row">
+                        <div class="col-md-12">
+                           <h1 class="contact_taital">Get In Touch</h1>
+                           <form action="">
+                              <div class="mail_section_1">
+                                 <input type="text" class="mail_text" placeholder="Name" name="Name">
+                                 <input type="text" class="mail_text" placeholder="Phone Number" name="Phone Number"> 
+                                 <input type="text" class="mail_text" placeholder="Email" name="Email">
+                                 <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
+                                 <div class="send_bt"><a href="#">SEND</a></div>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                     <!-- order section start -->
+                     <div class="order_section">
+                        <div class="order_taital_main">
+                           <h1 class="order_taital">Order Best food at time</h1>
+                           <div class="order_bt"><a href="#">Order Now</a></div>
+                        </div>
+                     </div>
+                     <!-- order section end -->
+                  </div>
+               </div>
+            </div>
+            <!-- contact section end -->
+            <!-- footer section start -->
+
+
+            
+ 
+            
+{% endblock bogla %}
+
+     

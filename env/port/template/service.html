@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block bogla %}
+   <!-- header section end -->
+      <!-- layout main section start -->
+      <div class="container-fluid">
+         <div class="layout_main">
+            <!-- banner section start -->
+            <div class="banner_section">
+               <div class="container">
+                  <div class="menu_main">
+                     <div class="custome_menu">
+                        <ul>
+                           <li><a href="{% url 'index.html' %}">Home</a></li>
+                           <li class="active"><a href="{% url 'service.html' %}">Services</a></li>
+                           {% comment %} <li><a href="{% url 'about.html' %}">About</a></li> {% endcomment %}
+                           <li><a href="{% url 'blog.html' %}">Blog</a></li>
+                           <li><a href="{% url 'shop.html' %}">Shop</a></li>
+                           <li><a href="{% url 'contact.html' %}">Contacts</a></li>
+                        </ul>
+                     </div>
+                     <div class="login_menu">
+                        <ul>
+                           <li><a href="#">Login</a></li>
+                           <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- banner section end -->
+            <!-- service section start -->
+            <div class="service_section layout_padding">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <h1 class="service_taital">Quick Searches</h1>
+                     </div>
+                  </div>
+                  <div class="service_section_2">
+                     <div class="row">
+                        <div class="col">
+                           <div class="service_box">
+                              <div class="breakfast_img"><img src="{% static 'images/breakfast-img.png' %}"></div>
+                           </div>
+                           <h4 class="breakfast_text">Breakfast</h4>
+                           <div class="seemore_bt"><a href="#">See More</a></div>
+                        </div>
+                        <div class="col">
+                           <div class="service_box">
+                              <div class="breakfast_img"><img src="{% static 'images/delivery-img.png' %}"></div>
+                           </div>
+                           <h4 class="breakfast_text">Delivery</h4>
+                           <div class="seemore_bt"><a href="#">See More</a></div>
+                        </div>
+                        <div class="col">
+                           <div class="service_box">
+                              <div class="breakfast_img"><img src="{% static 'images/dinner-img.png' %}"></div>
+                           </div>
+                           <h4 class="breakfast_text">Dinner</h4>
+                           <div class="seemore_bt"><a href="#">See More</a></div>
+                        </div>
+                        <div class="col">
+                           <div class="service_box">
+                              <div class="breakfast_img"><img src="{% static 'images/coffee-img.png' %}"></div>
+                           </div>
+                           <h4 class="breakfast_text">Coffee</h4>
+                           <div class="seemore_bt"><a href="#">See More</a></div>
+                        </div>
+                        <div class="col">
+                           <div class="service_box">
+                              <div class="breakfast_img"><img src="{% static 'images/alcohol-img.png' %}"></div>
+                           </div>
+                           <h4 class="breakfast_text">Alcohol</h4>
+                           <div class="seemore_bt"><a href="#">See More</a></div>
+                        </div>
+                        <div class="col">
+                           <div class="service_box">
+                              <div class="breakfast_img"><img src="{% static 'images/diningtable-img.png' %}"></div>
+                           </div>
+                           <h4 class="breakfast_text">Diningtable</h4>
+                           <div class="seemore_bt"><a href="#">See More</a></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- service section end -->
+            <!-- footer section start -->
+         
+
+{% endblock bogla %}
+   
